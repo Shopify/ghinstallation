@@ -1,4 +1,4 @@
-module github.com/burke/ghinstallation/v2
+module github.com/Shopify/ghinstallation/v2
 
 go 1.13
 

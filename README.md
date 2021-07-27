@@ -1,6 +1,6 @@
 # ghinstallation
 
-[![GoDoc](https://godoc.org/github.com/burke/ghinstallation?status.svg)](https://godoc.org/github.com/burke/ghinstallation)
+[![GoDoc](https://godoc.org/github.com/Shopify/ghinstallation?status.svg)](https://godoc.org/github.com/Shopify/ghinstallation)
 
 `ghinstallation` provides `Transport`, which implements `http.RoundTripper` to
 provide authentication as an installation for GitHub Apps.
@@ -16,13 +16,13 @@ https://developer.github.com/apps/building-integrations/setting-up-and-registeri
 Get the package:
 
 ```bash
-go get -u github.com/burke/ghinstallation
+go get -u github.com/Shopify/ghinstallation
 ```
 
 # GitHub Example
 
 ```go
-import "github.com/burke/ghinstallation"
+import "github.com/Shopify/ghinstallation"
 
 func main() {
     // Shared transport to reuse TCP connections.
@@ -44,7 +44,7 @@ func main() {
 For clients using GitHub Enterprise, set the base URL as follows:
 
 ```go
-import "github.com/burke/ghinstallation"
+import "github.com/Shopify/ghinstallation"
 
 const GitHubEnterpriseURL = "https://github.example.com/api/v3"
 
